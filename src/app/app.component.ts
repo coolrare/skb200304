@@ -7,7 +7,7 @@ import { $ } from 'protractor';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'skb200304';
+  keyword = 'skb200304';
   constructor() {
     // tslint:disable-next-line: no-string-literal
     window['jQuery'](() => {
