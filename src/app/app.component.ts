@@ -14,4 +14,8 @@ export class AppComponent {
       console.log('ok');
     });
   }
+
+  doSearch(value) {
+    this.keyword = value;
+  }
 }
